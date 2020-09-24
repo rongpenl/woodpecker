@@ -1,0 +1,47 @@
+%YAML 1.2
+# difficulty and accessibility are ranked from 1 to 10 and 1 means eaiser and less accessible.
+---
+question-id: example-question2
+question-body:
+  description: What is the formula for adujsted $R^2$?
+  resources:
+    - {type: image, link: https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U, description: an image place holder}
+  hints:
+    - What is the definition of $R^2$?
+    - What other factors are involved in adjusted $R^2$
+  answer: The adjusted $R^2$ is defined as $1-(1-R^2)\frac{n-1}{n-p-1}$ where $n$ is the total number of data points and $p$ is the total number of explanatory variables in the model, excluding constants.
+question-meta:
+  category:
+    - woodpecker
+    # woodpecker keyword means this is a tricky and possibly difficult question
+    - regression
+    - prediction
+  difficulty: 3
+  contributor:
+    # GitHub user name
+    - rongpenl
+  related-questions:
+    # question-id of related questions
+    - example-question0
+    - example-question1
+    - example-question3
+    - example-question4
+  references:
+    - {
+        name: WikiPedia page,
+        link: https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2,
+        type: article,
+        accessibility: 2,
+      }
+    - {
+        name: Minitab blog,
+        link: https://blog.minitab.com/blog/adventures-in-statistics-2/multiple-regession-analysis-use-adjusted-r-squared-and-predicted-r-squared-to-include-the-correct-number-of-variables,
+        type: article,
+        accessibility: 4,
+      }
+    - {
+        name: Stephanie Glen's YouTube video,
+        link: https://www.youtube.com/watch?v=KjRrdb2x6dA,
+        type: video,
+        accessibility: 10,
+      }

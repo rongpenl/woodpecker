@@ -1,0 +1,47 @@
+%YAML 1.2
+---
+question-id: visualizing-a-decision-tree
+question-body:
+  description: The given picture is a complete visualization of a binary classification tree. Answer the following questions. 1. How many features does the classification tree have? 2. What is the most likely depth of the tree, 2, 4 or 8, Why? 3. Which line indicates the first split of the root node of the tree, why? 4. If you are going to prune a leaf, which region will it be (answer is not unique)?
+  description-resources:
+    - {type: image, link: https://i.stack.imgur.com/Asi7O.png, description: visualization of a decision tree.}
+  hints:
+    - How is a feature represented?
+    - What's the relationship between the depth of the tree and the number of leaves?
+    - What is the characteristic of the root node?
+    - What is the character of leaf node?
+  answer: 1. 2 features. 2. The tree has a depth of 4. 3. The only horizontal line that spans from left edge to right edge. 4. One of the smallest rectangles.
+  answer-resources:
+    - {type: ~, link: ~, description: ~}
+question-meta:
+  category:
+    - woodpecker
+    # woodpecker keyword means this is a tricky and possibly difficult question
+    - decision tree
+    - visualization interpretation
+  difficulty: 6
+  contributor:
+    # GitHub user name
+    - rongpenl
+  related-questions:
+    # question-id of related questions
+    - ~
+  references:
+    - {
+        name: University of Washington Coursera course material,
+        link: https://www.coursera.org/lecture/ml-classification/visualizing-decision-boundaries-kyi11,
+        type: video,
+        accessibility: 10,
+      }
+    - {
+        name: Sklearn example,
+        link: https://scikit-learn.org/0.15/auto_examples/tree/plot_iris.html,
+        type: article,
+        accessibility: 5,
+      }
+    - {
+        name: Hackernoon blog,
+        link: https://hackernoon.com/how-to-plot-a-decision-boundary-for-machine-learning-algorithms-in-python-3o1n3w07,
+        type: article,
+        accessibility: 4,
+      }

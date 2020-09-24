@@ -1,0 +1,10 @@
+%YAML 1.2
+# difficulty and accessibility are ranked from 1 to 10 and 1 means eaiser and less accessible.
+---
+  - calculation
+  - decision tree
+  - math
+  - prediction
+  - regression
+  - visualization interpretation
+  - woodpecker

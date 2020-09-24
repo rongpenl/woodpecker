@@ -1,0 +1,45 @@
+%YAML 1.2
+---
+question-id: explain-the-bessel-correction
+question-body:
+  description: In the formula for estimating population standard deviation, the denominator is $n-1$ rather than $n$, explain?
+  description-resources:
+    - {type: image, link: https://wikimedia.org/api/rest_v1/media/math/render/svg/6c61f055ff76396f4b98c926f2e3b2c47e7f64f0, description: Formula of unbiased sample variance.}
+  hints:
+    - 
+  answer: No short answer given. Please refer to the linked material or consider providing one by creating a pull request.
+  answer-resources:
+    - {type: article, link: https://en.wikipedia.org/wiki/Bessel%27s_correction#Proof_of_correctness_%E2%80%93_Alternative_2, description: Wikipedia proof}
+question-meta:
+  category:
+    - woodpecker
+    # woodpecker keyword means this is a tricky and possibly difficult question
+    - math
+    - calculation
+    # calculation means it requires actual calculation on whiteboard
+  difficulty: 9
+  contributor:
+    # GitHub user name
+    - rongpenl
+  related-questions:
+    # question-id of related questions
+    - ~
+  references:
+    - {
+        name: Khan academy video,
+        link: https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/more-standard-deviation/v/review-and-intuition-why-we-divide-by-n-1-for-the-unbiased-sample-variance#:~:text=Yes.-,The%20reason%20n%2D1%20is%20used%20is%20because%20that%20is,value%20of%20the%20final%20one.,
+        type: video,
+        accessibility: 8,
+      }
+    - {
+        name: WikiPedia page on Bessel estimation,
+        link: https://en.wikipedia.org/wiki/Bessel%27s_correction#Proof_of_correctness_-_Alternate_3,
+        type: article,
+        accessibility: 6,
+      }
+    - {
+        name: Various answers on stats.stackoverflow about the intuition,
+        link: https://stats.stackexchange.com/questions/3931/intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation,
+        type: article,
+        accessibility: 4,
+      }
